@@ -2,6 +2,7 @@
 const containers = document.getElementsByClassName('container');
 const items = document.getElementsByClassName('item');
 
+
 // Add event listeners to each item for dragging
 for (const item of items) {
   item.addEventListener('dragstart', dragStart);
